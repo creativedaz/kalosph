@@ -4,10 +4,11 @@
   width: 50px;
   height: 50px;
   border-radius: 100%;
-  border: 1px solid #a3a3a3;
+  border: 1px solid #ffffff;
   transition: all 200ms ease-out;
   position: fixed;
   pointer-events: none;
+  mix-blend-mode: difference;
   left: 0;
   top: 0;
   transform: translate(calc(-50% + 15px), -50%);
@@ -18,27 +19,38 @@
   width: 20px;
   height: 20px;
   border-radius: 100%;
-  background-color: #a3a3a3;
-  opacity: 0.3;
+  background-color: #ffffff;
+  opacity: 1;
   position: fixed;
   transform: translate(-50%, -50%);
   pointer-events: none;
+  mix-blend-mode: difference;
   transition: width 0.3s, height 0.3s, opacity 0.3s;
   z-index: 99999;
 }
 
+/* HOVER STATE */
+
 .hover {
-  background: #a3a3a3;
-  background-size: 400% 400%;
+  background: #ffffff;
+  /* background-size: 300% 300%; */
+  width: 100px;
+  height: 100px;
+  mix-blend-mode: difference;
   animation: gradient 15s ease infinite;
-  opacity: 0.5;
+  opacity: 1;
   z-index: 99999;
 }
 
 .cursorinnerhover {
-  width: 50px;
-  height: 50px;
-  opacity: 0.5;
+  background: transparent;
+  /* width: 50px;
+  height: 50px; */
+  width: 150px;
+  height: 150px;
+  mix-blend-mode: difference;
+  animation: gradient 15s ease infinite;
+  opacity: 1;
   z-index: 99999;
 }
 
