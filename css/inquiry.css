@@ -1,0 +1,138 @@
+.inquiry {
+  background-color: #f3f3f3;
+  padding: 50px 100px 50px 100px;
+}
+
+.inquiry h2 {
+  padding: 25px 0 25px;
+}
+
+.inquiry a {
+  display: block;
+}
+
+.inquiry_container {
+  margin-top: 24px;
+}
+
+button {
+  border: none;
+}
+
+.input,
+.select select,
+.textarea {
+  font-size: 26px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #363636;
+  background-color: #fff;
+  border: #000000 4px solid;
+  border-radius: 0;
+}
+
+.input:active,
+.input:focus,
+.is-active.input,
+.is-active.textarea,
+.is-focused.input,
+.is-focused.textarea,
+.select select.is-active,
+.select select.is-focused,
+.select select:active,
+.select select:focus,
+.textarea:active,
+.textarea:focus {
+  border-color: #01a8ff;
+  box-shadow: 0 0 0 0.125em rgb(72 95 199 / 25%);
+}
+
+select,
+.select {
+  width: 100%;
+  text-transform: uppercase;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
+}
+
+.select:not(.is-multiple):not(.is-loading)::after {
+  border-color: #000000;
+  right: 1.125em;
+  top: 2.125em;
+  z-index: 4;
+}
+
+.field.btn_field {
+  display: flex;
+  justify-content: center;
+}
+
+.file {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.file.is-boxed.has-name {
+  border: #000000 4px solid;
+}
+
+.file.is-boxed.has-name .file-cta,
+.file.is-boxed.has-name .file-name {
+  border-radius: 0;
+}
+
+.file-label {
+  color: #c2c2c2;
+  font-size: 26px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.file.is-boxed .file-icon {
+  height: auto;
+}
+
+.file-icon > i.fas.fa-file-upload {
+  font-size: 64px;
+  color: #c2c2c2;
+}
+
+.file-name {
+  max-width: none;
+  display: flex;
+  justify-content: center;
+}
+
+.label {
+  font-family: "Monument Extended Ultrabold";
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #c2c2c2;
+  letter-spacing: 1px;
+}
+
+.label_danger {
+  color: #fff;
+  background-color: #df2626;
+  font-size: 16px;
+  padding: 20px 50px;
+  letter-spacing: 3px;
+}
+
+.label_danger i {
+  margin-right: 20px;
+  font-size: 26px;
+}
+
+.form_asterisk {
+  color: #df2626;
+}
+
+.text-sm {
+  font-size: 12px;
+}
+
+.text-md {
+  font-size: 18px;
+}
