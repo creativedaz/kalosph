@@ -33,9 +33,9 @@ $(function () {
   // DO THIS BEFORE TRANSITION
   barba.hooks.beforeEnter(() => {
     // REINITIALIZE app.css at <head></head> to reload the app.css
-    // const linkDOMAppsCss = document.getElementsByTagName("head")[0];
-    // const newLinkAppsCss = document.createElement("link");
-    // const oldLinkAppsCss = document.querySelector(".app-css");
+    // var linkDOMAppsCss = document.getElementsByTagName("head")[0];
+    // var newLinkAppsCss = document.createElement("link");
+    // var oldLinkAppsCss = document.querySelector(".app-css");
     // newLinkAppsCss.rel = "stylesheet";
     // newLinkAppsCss.type = "text/css";
     // newLinkAppsCss.href = "css/app.css";
@@ -45,34 +45,24 @@ $(function () {
     // console.log(newLinkAppsCss); // CHECK RESULT
 
     // REINITIALIZE js/custom-cursor.js at <script></script> to make custom cursor working
-    const scriptDOMCustomCursor = document.getElementsByTagName("body")[0];
-    const newScriptCustomCursor = document.createElement("script");
-    const oldScriptCustomCursor = document.querySelector(".custom-cursor");
+    var scriptDOMCustomCursor = document.getElementsByTagName("body")[0];
+    var newScriptCustomCursor = document.createElement("script");
+    var oldScriptCustomCursor = document.querySelector(".custom-cursor");
     newScriptCustomCursor.src = "js/custom-cursor.js";
     newScriptCustomCursor.className = "custom-cursor";
     oldScriptCustomCursor.remove();
     scriptDOMCustomCursor.appendChild(newScriptCustomCursor);
-    // console.log(newScriptCustomCursor); // CHECK RESULT
-
-    // REINITIALIZE https://cdnjs.cloudflare.com/ajax/libs/fancyapps-ui/4.0.31/fancybox.umd.js at <script></script> to reload the fancyapps extension.
-    // const scriptDOMExtFancyApps = document.getElementsByTagName("body")[0];
-    // const newScriptExtFancyApps = document.createElement("script");
-    // const oldScriptExtFancyApps = document.querySelector(".ext_fancyapps");
-    // newScriptExtFancyApps.src = "https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js";
-    // newScriptExtFancyApps.className = "ext_fancyapps";
-    // oldScriptExtFancyApps.remove();
-    // scriptDOMExtFancyApps.appendChild(newScriptExtFancyApps);
-    // console.log(newScriptExtFancyApps); // CHECK RESULT
+    console.log(newScriptCustomCursor);
 
     // REINITIALIZE js/fancy-image_slider.js at <script></script> to make fancy image slider working
-    const scriptDOMFancyImageSlider = document.getElementsByTagName("body")[0];
-    const newScriptFancyImageSlider = document.createElement("script");
-    const oldScriptFancyImageSlider = document.querySelector(".fancy-image_slider");
+    var scriptDOMFancyImageSlider = document.getElementsByTagName("body")[0];
+    var newScriptFancyImageSlider = document.createElement("script");
+    var oldScriptFancyImageSlider = document.querySelector(".fancy-image_slider");
     newScriptFancyImageSlider.src = "js/fancy-image_slider.js";
     newScriptFancyImageSlider.className = "fancy-image_slider";
     oldScriptFancyImageSlider.remove();
     scriptDOMFancyImageSlider.appendChild(newScriptFancyImageSlider);
-    // console.log(newScriptFancyImageSlider); // CHECK RESULT
+    console.log(newScriptFancyImageSlider);
   });
   // INITIALIZE TRANSITION
   barba.init({
@@ -92,14 +82,13 @@ $(function () {
   });
   barba.hooks.after(() => {
     // REINITIALIZE js/script.js at <script></script> to make hamburger button working
-    const scriptDOMScriptJs = document.getElementsByTagName("body")[0];
-    const newScriptScriptJs = document.createElement("script");
-    const oldScriptScriptJs = document.querySelector(".script-js");
+    var scriptDOMScriptJs = document.getElementsByTagName("body")[0];
+    var newScriptScriptJs = document.createElement("script");
+    var oldScriptScriptJs = document.querySelector(".script-js");
     newScriptScriptJs.src = "js/script.js";
     newScriptScriptJs.className = "script-js";
-    // console.log(oldScriptScriptJs); // CHECK RESULT
     oldScriptScriptJs.remove();
     scriptDOMScriptJs.appendChild(newScriptScriptJs);
-    // console.log(newScriptScriptJs); // CHECK RESULT
+    console.log(newScriptScriptJs);
   });
 });

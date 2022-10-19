@@ -1,10 +1,10 @@
-let anchorlinks = document.querySelectorAll('a[href^="#"]');
+var anchorlinks = document.querySelectorAll('a[href^="#"]');
 
 for (let item of anchorlinks) {
   // relitere
   item.addEventListener("click", (e) => {
-    let hashval = item.getAttribute("href");
-    let target = document.querySelector(hashval);
+    var hashval = item.getAttribute("href");
+    var target = document.querySelector(hashval);
     target.scrollIntoView({
       behavior: "smooth",
       block: "start",

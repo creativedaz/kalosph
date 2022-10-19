@@ -122,11 +122,15 @@ button.carousel__button {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 20px;
-  list-style-image: url(../icons/icon-bullet.svg);
-  padding-left: 45px;
+  margin-left: 25px;
 }
 
 .product_content ul li {
+  background: url('../icons/icon-bullet.svg') no-repeat 2px 2px transparent;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 0px 1px 24px;
+  vertical-align: middle;
   margin-bottom: 10px;
 }
 

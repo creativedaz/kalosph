@@ -259,6 +259,10 @@ a {
   padding-right: 300px;
 }
 
+
+
+
+
 .catalog a {
   font-size: 42px;
   color: #ffffff;
@@ -278,6 +282,14 @@ a {
   transition: all 0.5s ease;
 }
 
+.catalog_icon {
+  width: 180px;
+}
+
+.catalog_icon img {
+  width: 75%;
+}
+
 .catalog_icon:hover {
   filter: opacity(0.5) drop-shadow(0 0 0 #c2c2c2);
   transition: all 0.5s ease;
@@ -290,6 +302,7 @@ a {
   padding: 0 300px;
   grid-gap: 10px;
   margin-top: 20px;
+  justify-items: center;
 }
 
 .catalog_sports__grid h3 {
@@ -304,6 +317,7 @@ a {
   align-items: center;
   grid-gap: 10px;
   grid-area: 3 / 1 / 4 / 3;
+  justify-items: center;
 }
 
 .catalog_apparels__grid h3 {
@@ -315,7 +329,7 @@ a {
 }
 
 .icon-joggerpants {
-  grid-area: 3 / 3 / unset4 / 3;
+  grid-area: 3 / 3 / 4 / 3;
 }
 
 /* GALLERY */
