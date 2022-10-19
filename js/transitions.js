@@ -38,7 +38,7 @@ $(function () {
     // const oldLinkAppsCss = document.querySelector(".app-css");
     // newLinkAppsCss.rel = "stylesheet";
     // newLinkAppsCss.type = "text/css";
-    // newLinkAppsCss.href = "/css/app.css";
+    // newLinkAppsCss.href = "css/app.css";
     // newLinkAppsCss.className = "app-css";
     // oldLinkAppsCss.remove();
     // linkDOMAppsCss.appendChild(newLinkAppsCss);
@@ -48,7 +48,7 @@ $(function () {
     const scriptDOMCustomCursor = document.getElementsByTagName("body")[0];
     const newScriptCustomCursor = document.createElement("script");
     const oldScriptCustomCursor = document.querySelector(".custom-cursor");
-    newScriptCustomCursor.src = "/js/custom-cursor.js";
+    newScriptCustomCursor.src = "js/custom-cursor.js";
     newScriptCustomCursor.className = "custom-cursor";
     oldScriptCustomCursor.remove();
     scriptDOMCustomCursor.appendChild(newScriptCustomCursor);
@@ -68,7 +68,7 @@ $(function () {
     const scriptDOMFancyImageSlider = document.getElementsByTagName("body")[0];
     const newScriptFancyImageSlider = document.createElement("script");
     const oldScriptFancyImageSlider = document.querySelector(".fancy-image_slider");
-    newScriptFancyImageSlider.src = "/js/fancy-image_slider.js";
+    newScriptFancyImageSlider.src = "js/fancy-image_slider.js";
     newScriptFancyImageSlider.className = "fancy-image_slider";
     oldScriptFancyImageSlider.remove();
     scriptDOMFancyImageSlider.appendChild(newScriptFancyImageSlider);
