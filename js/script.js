@@ -1,8 +1,8 @@
 // HAMBURGER MENU
-const hamburger = document.getElementById("hamburger");
-const navUL = document.getElementById("nav_ul");
+var hamburger = document.getElementById("hamburger");
+var navUL = document.getElementById("nav_ul");
 
-hamburger.addEventListener("click", () => {
+$(hamburger).click(function() {
   navUL.classList.toggle("show");
 });
 

@@ -32,7 +32,7 @@ function pageTransition() {
 $(function () {
   // DO THIS BEFORE TRANSITION
   barba.hooks.beforeEnter(() => {
-    // REINITIALIZE app.css at <head></head>
+    // REINITIALIZE app.css at <head></head> to reload the app.css
     // const linkDOMAppsCss = document.getElementsByTagName("head")[0];
     // const newLinkAppsCss = document.createElement("link");
     // const oldLinkAppsCss = document.querySelector(".app-css");
@@ -44,7 +44,7 @@ $(function () {
     // linkDOMAppsCss.appendChild(newLinkAppsCss);
     // console.log(newLinkAppsCss); // CHECK RESULT
 
-    // REINITIALIZE  at /js/custom-cursor.js <script></script>
+    // REINITIALIZE js/custom-cursor.js at <script></script> to make custom cursor working
     const scriptDOMCustomCursor = document.getElementsByTagName("body")[0];
     const newScriptCustomCursor = document.createElement("script");
     const oldScriptCustomCursor = document.querySelector(".custom-cursor");
@@ -54,7 +54,7 @@ $(function () {
     scriptDOMCustomCursor.appendChild(newScriptCustomCursor);
     // console.log(newScriptCustomCursor); // CHECK RESULT
 
-    // REINITIALIZE https://cdnjs.cloudflare.com/ajax/libs/fancyapps-ui/4.0.31/fancybox.umd.js at <script></script>
+    // REINITIALIZE https://cdnjs.cloudflare.com/ajax/libs/fancyapps-ui/4.0.31/fancybox.umd.js at <script></script> to reload the fancyapps extension.
     // const scriptDOMExtFancyApps = document.getElementsByTagName("body")[0];
     // const newScriptExtFancyApps = document.createElement("script");
     // const oldScriptExtFancyApps = document.querySelector(".ext_fancyapps");
@@ -64,7 +64,7 @@ $(function () {
     // scriptDOMExtFancyApps.appendChild(newScriptExtFancyApps);
     // console.log(newScriptExtFancyApps); // CHECK RESULT
 
-    // REINITIALIZE /js/fancy-image_slider.js at <script></script>
+    // REINITIALIZE js/fancy-image_slider.js at <script></script> to make fancy image slider working
     const scriptDOMFancyImageSlider = document.getElementsByTagName("body")[0];
     const newScriptFancyImageSlider = document.createElement("script");
     const oldScriptFancyImageSlider = document.querySelector(".fancy-image_slider");
@@ -89,5 +89,17 @@ $(function () {
         },
       },
     ],
+  });
+  barba.hooks.after(() => {
+    // REINITIALIZE js/script.js at <script></script> to make hamburger button working
+    const scriptDOMScriptJs = document.getElementsByTagName("body")[0];
+    const newScriptScriptJs = document.createElement("script");
+    const oldScriptScriptJs = document.querySelector(".script-js");
+    newScriptScriptJs.src = "js/script.js";
+    newScriptScriptJs.className = "script-js";
+    // console.log(oldScriptScriptJs); // CHECK RESULT
+    oldScriptScriptJs.remove();
+    scriptDOMScriptJs.appendChild(newScriptScriptJs);
+    // console.log(newScriptScriptJs); // CHECK RESULT
   });
 });
