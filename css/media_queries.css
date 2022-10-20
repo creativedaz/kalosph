@@ -410,6 +410,8 @@
         display: none;
         flex-direction: column;
         width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
     }
 
     .nav_ul.show {
@@ -707,6 +709,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        -webkit-box-decoration-break: clone;
     }
 
     .main_hero__content {

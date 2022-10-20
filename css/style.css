@@ -144,6 +144,7 @@ a {
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
   transition: all 0.5s ease;
+  -webkit-box-decoration-break: clone;
 }
 
 .hamburger {
@@ -212,6 +213,7 @@ a {
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
   transition: all 0.5s ease;
+  -webkit-box-decoration-break: clone;
 }
 
 .nav_inquire_now {
@@ -432,6 +434,7 @@ a {
   -webkit-background-clip: text;
   -webkit-text-stroke: 10px transparent;
   color: #ffffff;
+  -webkit-box-decoration-break: clone;
 }
 
 .new_arrival__description-box {
@@ -617,6 +620,7 @@ a {
   -webkit-text-stroke: 5px transparent;
   color: #000000;
   transition: all 0.5s ease;
+  -webkit-box-decoration-break: clone;
 }
 
 .branches_container {
