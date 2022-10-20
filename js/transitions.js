@@ -32,6 +32,9 @@ function pageTransition() {
 $(function () {
   // DO THIS BEFORE TRANSITION
   barba.hooks.beforeEnter(() => {
+    // SCROLL TO TOP OF THE CURRENT PAGE
+    $(window).scrollTop(0);
+
     // REINITIALIZE app.css at <head></head> to reload the app.css
     // var linkDOMAppsCss = document.getElementsByTagName("head")[0];
     // var newLinkAppsCss = document.createElement("link");
