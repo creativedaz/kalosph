@@ -55,7 +55,7 @@ $(function () {
     newScriptCustomCursor.className = "custom-cursor";
     oldScriptCustomCursor.remove();
     scriptDOMCustomCursor.appendChild(newScriptCustomCursor);
-    console.log(newScriptCustomCursor);
+    // console.log(newScriptCustomCursor);
 
     // REINITIALIZE js/fancy-image_slider.js at <script></script> to make fancy image slider working
     var scriptDOMFancyImageSlider = document.getElementsByTagName("body")[0];
@@ -65,7 +65,7 @@ $(function () {
     newScriptFancyImageSlider.className = "fancy-image_slider";
     oldScriptFancyImageSlider.remove();
     scriptDOMFancyImageSlider.appendChild(newScriptFancyImageSlider);
-    console.log(newScriptFancyImageSlider);
+    // console.log(newScriptFancyImageSlider);
   });
   // INITIALIZE TRANSITION
   barba.init({
@@ -92,6 +92,6 @@ $(function () {
     newScriptScriptJs.className = "script-js";
     oldScriptScriptJs.remove();
     scriptDOMScriptJs.appendChild(newScriptScriptJs);
-    console.log(newScriptScriptJs);
+    // console.log(newScriptScriptJs);
   });
 });
