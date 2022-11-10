@@ -1,4 +1,4 @@
 // INITIALIZE CAROUSEL
 const heroCarousel = new Carousel(document.querySelector("#heroCarousel"), {
-    Dots: true,
+    Dots: false,
 });
