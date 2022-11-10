@@ -9,7 +9,7 @@
     <title>KALOSPH Sportswear</title>
     <link rel="icon" type="image/svg+xml" href="icons/favicon/favicon.svg"/>
     <link rel="icon" type="image/png" href="icons/favicon/favicon.png"/>
-    <link class="app-css" href="css/app.css" rel="stylesheet" type="text/css" media="all"/>
+    <link class="app-css" href="style.css" rel="stylesheet" type="text/css" media="all"/>
   </head>
   <body data-barba="wrapper">
     <!-- START LOADING SCREEN -->
@@ -23,9 +23,9 @@
     <!-- END CUSTOM CURSOR -->
     <main data-barba="container" data-barba-namespace="home-section">
       <!-- START ANNOUNCEMENT -->
-      <div id="home" class="header_announcement">
+      <!-- <div id="home" class="header_announcement">
         <p>10% off for all our shopee products using code: KALOSPH</p>
-      </div>
+      </div> -->
       <!-- END ANNOUNCEMENT -->
       <!-- START HEADER NAVIGATION -->
       <nav class="header_nav">
@@ -51,7 +51,7 @@
       </nav>
       <!-- END HEADER NAVIGATION -->
       <!-- START MAIN HERO -->
-      <section class="main">
+      <!-- <section class="main">
         <div class="main_hero">
           <div class="main_hero__content">
             <h1>sportswear that will unleash your inner beast</h1>
@@ -59,7 +59,63 @@
           </div>
           <img src=""/>
         </div>
-      </section>
+      </section> -->
+      <div id="heroCarousel" class="heroCarousel">
+        <div class="carousel__slide" data-lazy-src="img/hero_carousel/carousel-slide-01.jpg">
+          <div class="hero_content">
+            <h1>sportswear that will unleash your inner beast</h1>
+            <a class="btn_large gradient" href="inquire.html">inquire now</a>
+          </div>
+        </div>
+        <div class="carousel__slide" data-lazy-src="img/hero_carousel/carousel-slide-02.jpg">
+          <div class="hero_content">
+            <h1>up your game, grab your cycling group uniform</h1>
+            <a class="btn_large gradient" href="inquire.html">inquire now</a>
+          </div>
+        </div>
+        <div class="carousel__slide" data-lazy-src="img/hero_carousel/carousel-slide-03.jpg">
+          <div class="hero_content">
+            <h1>make your riders group be noticeable with our uniform</h1>
+            <a class="btn_large gradient" href="inquire.html">inquire now</a>
+          </div>
+        </div>
+        <div class="carousel__slide" data-lazy-src="img/hero_carousel/carousel-slide-04.jpg">
+          <div class="hero_content">
+            <h1>stand equal with your group and above anyone else</h1>
+            <a class="btn_large gradient" href="inquire.html">inquire now</a>
+          </div>
+        </div>
+        <div class="carousel__slide" data-lazy-src="img/hero_carousel/carousel-slide-05.jpg">
+          <div class="hero_content">
+            <h1>ride with your buddies with confidence</h1>
+            <a class="btn_large gradient" href="inquire.html">inquire now</a>
+          </div>
+        </div>
+        <div class="carousel__slide" data-lazy-src="img/hero_carousel/carousel-slide-06.jpg">
+          <div class="hero_content">
+            <h1>school events apparel, corporate uniform? we got you covered</h1>
+            <a class="btn_large gradient" href="inquire.html">inquire now</a>
+          </div>
+        </div>
+        <div class="carousel__slide" data-lazy-src="img/hero_carousel/carousel-slide-07.jpg">
+          <div class="hero_content">
+            <h1>boost your confidence with our outstanding uniform</h1>
+            <a class="btn_large gradient" href="inquire.html">inquire now</a>
+          </div>
+        </div>
+        <div class="carousel__slide" data-lazy-src="img/hero_carousel/carousel-slide-08.jpg">
+          <div class="hero_content">
+            <h1>control your game, up your game with our uniform</h1>
+            <a class="btn_large gradient" href="inquire.html">inquire now</a>
+          </div>
+        </div>
+        <div class="carousel__slide" data-lazy-src="img/hero_carousel/carousel-slide-09.jpg">
+          <div class="hero_content">
+            <h1>grab your crew a well-designed uniform</h1>
+            <a class="btn_large gradient" href="inquire.html">inquire now</a>
+          </div>
+        </div>
+      </div>
       <!-- END MAIN HERO -->
       <!-- START CATALOG -->
       <section id="catalog" class="catalog">
@@ -68,43 +124,52 @@
           <span class="gradient-text">on your palms</span>
         </h2>
         <p>
-          we are a company that specializes in customized sportswear for your
-          kind of sport. we design, print, press and sew from scratch all of our
-          products to deliver satisfaction to all of our client.
+          we are kalosph sportswear that customizes apparels such as jersey sportswear, company uniforms, athletic uniforms, souvenirs shirts, family gatherings shirts and organization uniforms. <strong class="gradient-text">shooting uniform and golf uniform</strong> is also available, please <a class="catalog-inquire" href="inquire.html">inquire here</a>
         </p>
-        <div class="catalog_sports__grid">
-          <h3>sports</h3>
+        <h3>sports</h3>
+        <div class="catalog_sports__flex">
           <a class="catalog_icon" href="basketball.html">
             <img src="icons/icon-basketball.svg"/>
+            <span>basketball</span>
           </a>
           <a class="catalog_icon" href="volleyball.html">
             <img src="icons/icon-volleyball.svg"/>
+            <span>volleyball</span>
           </a>
-          <a class="catalog_icon" href="#">
+          <a class="catalog_icon" href="cycling.html">
             <img src="icons/icon-cycling.svg"/>
+            <span>cycling</span>
           </a>
-          <a class="catalog_icon" href="#">
+          <a class="catalog_icon" href="baseball.html">
             <img src="icons/icon-baseball.svg"/>
+            <span>baseball</span>
           </a>
         </div>
-        <div class="catalog_apparels__grid">
-          <h3>apparels</h3>
-          <a class="catalog_icon" href="#">
+        <h3>apparels</h3>
+        <div class="catalog_apparels__flex">
+          <a class="catalog_icon" href="facemask.html">
             <img src="icons/icon-facemask.svg"/>
+            <span>facemask</span>
           </a>
           <a class="catalog_icon" href="tshirt.html">
             <img src="icons/icon-tshirt.svg"/>
-          </a><a class="catalog_icon" href="poloshirt.html">
+            <span>tshirt</span>
+          </a>
+          <a class="catalog_icon" href="poloshirt.html">
             <img src="icons/icon-poloshirt.svg"/>
+            <span>poloshirt</span>
           </a>
           <a class="catalog_icon" href="longsleeves.html">
             <img src="icons/icon-longsleeves.svg"/>
+            <span>longsleeves</span>
           </a>
-          <a class="catalog_icon icon-jacket" href="jacket.html">
+          <a class="catalog_icon" href="jacket.html">
             <img src="icons/icon-jacket.svg"/>
+            <span>jacket</span>
           </a>
-          <a class="catalog_icon icon-joggerpants" href="#">
+          <a class="catalog_icon" href="joggerpants.html">
             <img src="icons/icon-joggerpants.svg"/>
+            <span>jogger pants</span>
           </a>
         </div>
         <a href="catalog.html">browse catalog</a>
@@ -189,32 +254,14 @@
           </div>
           <div class="about_us__description">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              pulvinar faucibus neque, nec rhoncus nunc ultrices sit amet.
-              Curabitur ac sagittis neque, vel egestas est. Aenean elementum,
-              erat at aliquet hendrerit, elit nisl posuere tortor, id suscipit
-              diam dui sed nisi. Morbi sollicitudin massa vel tortor consequat,
-              eget semper nisl fringilla. Maecenas at hendrerit odio. Sed in mi
-              eu quam suscipit bibendum quis at orci. Pellentesque fermentum
-              nisl purus, et iaculis lectus pharetra sit amet.
-            </p>
-            <br/>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              pulvinar faucibus neque, nec rhoncus nunc ultrices sit amet.
-              Curabitur ac sagittis neque, vel egestas est. Aenean elementum,
-              erat at aliquet hendrerit, elit nisl posuere tortor, id suscipit
-              diam dui sed nisi. Morbi sollicitudin massa vel tortor consequat,
-              eget semper nisl fringilla. Maecenas at hendrerit odio. Sed in mi
-              eu quam suscipit bibendum quis at orci. Pellentesque fermentum
-              nisl purus, et iaculis lectus pharetra sit amet.
+              <strong>KALOS</strong> is a clothing apparel company that was originally founded & established in Marikina, Philippines in 2017. We are a company that ensures to provide high-quality printing services with its wide selection of products mainly consisting of casual t-shirts, long sleeves & sportswear.
             </p>
           </div>
         </div>
       </section>
       <!-- END ABOUT US -->
       <!-- START PARTNERS -->
-      <section id="partners" class="partners">
+      <!-- <section id="partners" class="partners">
         <div class="partners__grid">
           <header class="partners__title-box">
             <h2>partners</h2>
@@ -261,39 +308,42 @@
             <p>"success is best when it's shared"</p>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- END PARTNERS -->
       <!-- START BRANCHES -->
       <section id="branches" class="branches">
         <header class="branches_title-box">
-          <h2>branches</h2>
+          <h2>factory branches</h2>
         </header>
         <div class="branches_container">
-          <a href="https://www.facebook.com/KALOSph" target="_blank">marikina</a>
-          <a href="https://www.facebook.com/kalosphpasig" target="_blank">pasig</a>
-          <a href="https://www.facebook.com/KalosPhDavaoCity" target="_blank">davao</a>
-          <a href="https://www.facebook.com/KalosphMNL" target="_blank">manila</a>
-          <a href="https://www.facebook.com/kalosphbalangabataan" target="_blank">balanga</a>
-          <a href="https://www.facebook.com/kalosphgensancity" target="_blank">gensan</a>
-          <a href="https://www.facebook.com/KalosphNova" target="_blank">nova</a>
-          <a href="https://www.facebook.com/KALOSphDasma" target="_blank">dasma</a>
-          <a href="https://www.facebook.com/kalosphtondo" target="_blank">tondo</a>
-          <a href="https://www.facebook.com/kalosphgentri/" target="_blank">gentri, cavite</a>
-          <a href="https://www.facebook.com/profile.php?id=100070898172734" target="_blank">dinalupihan</a>
-          <a href="https://www.facebook.com/KALOSphToronto" target="_blank">toronto</a>
-          <a href="https://www.facebook.com/KALOSphMontalban" target="_blank">montalban</a>
-          <a href="https://www.facebook.com/profile.php?id=100083859954425" target="_blank">angeles</a>
-          <a href="https://www.facebook.com/profile.php?id=100083544026232" target="_blank">baliuag</a>
-          <a href="https://www.facebook.com/profile.php?id=100064170817994" target="_blank">san mateo</a>
-          <a href="https://www.facebook.com/KalosPh-IBAAN-115021207837784/" target="_blank">ibaan</a>
-          <a href="https://www.facebook.com/KALOSphBulacan/" target="_blank">s.m., bulacan</a>
-          <a href="https://www.facebook.com/profile.php?id=100075698777792" target="_blank">carmona</a>
-          <a href="https://www.facebook.com/kalosph.candelaria/" target="_blank">candelaria</a>
-          <a href="https://www.facebook.com/KALOSphSanFernandoPampanga" target="_blank">s.f., pampanga</a>
-          <a href="https://www.facebook.com/KALOSphAntipolo" target="_blank">antipolo</a>
-          <a href="https://www.facebook.com/kalosphbacoor" target="_blank">bacoor</a>
-          <a href="https://www.facebook.com/profile.php?id=100084149086339" target="_blank">s. caloocan</a>
-          <a href="https://www.facebook.com/profile.php?id=100070536336500" target="_blank">dumaguete</a>
+          <a href="#" target="_blank">main</a>
+          <a href="#" target="_blank">nova</a>
+          <a href="#" target="_blank">manila</a>
+          <a href="#" target="_blank">taguig</a>
+          <a href="#" target="_blank">dasma</a>
+          <a href="#" target="_blank">bacoor</a>
+          <a href="#" target="_blank">montalban</a>
+        </div>
+        <header class="branches_title-box">
+          <h2>reseller branches</h2>
+        </header>
+        <div class="branches_container">
+          <a href="#" target="_blank">antipolo</a>
+          <a href="#" target="_blank">balanga</a>
+          <a href="#" target="_blank">binangonan</a>
+          <a href="#" target="_blank">bulacan</a>
+          <a href="#" target="_blank">carmona</a>
+          <a href="#" target="_blank">davao</a>
+          <a href="#" target="_blank">dumaguete</a>
+          <a href="#" target="_blank">gensan</a>
+          <a href="#" target="_blank">iloilo</a>
+          <a href="#" target="_blank">a., pampanga</a>
+          <a href="#" target="_blank">s.f., pampanga</a>
+          <a href="#" target="_blank">pasig</a>
+          <a href="#" target="_blank">san mateo</a>
+          <a href="#" target="_blank">tondo</a>
+          <a href="#" target="_blank">valenzuela</a>
+          <a href="#" target="_blank">toronto</a>
         </div>
       </section>
       <!-- END BRANCHES -->
@@ -335,6 +385,10 @@
     <script src="js/smooth-scroll.js"></script>
     <script src="js/fancy-gallery.js"></script>
     <script class="fancy-image_slider" src="js/fancy-image_slider.js"></script>
+    <script class="fancy-hero_carousel" src="js/fancy-hero_carousel.js"></script>
     <script src="js/transitions.js"></script>
+    <script>
+      
+    </script>
   </body>
 </html>

@@ -54,5 +54,8 @@
   
   // STICKY NAVBAR
   jQuery(window).scroll(function () {
+    // TOGGLE FIXED CLASS WHEN THE USER SCROLL > 50
     jQuery(".header_nav").toggleClass("fixed", jQuery(window).scrollTop() > 50);
+    // ADJUST HERO CAROUSEL WHEN THE USER SCROLL > 50
+    jQuery(".heroCarousel").toggleClass("mt-100", jQuery(window).scrollTop() > 50);
   });

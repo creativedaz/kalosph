@@ -9,7 +9,7 @@
     <title>KALOSPH Catalog</title>
     <link rel="icon" type="image/svg+xml" href="icons/favicon/favicon.svg"/>
     <link rel="icon" type="image/png" href="icons/favicon/favicon.png"/>
-    <link class="app-css" href="css/app.css" rel="stylesheet" type="text/css" media="all"/>
+    <link class="app-css" href="style.css" rel="stylesheet" type="text/css" media="all"/>
   </head>
   <body data-barba="wrapper">
     <!-- START LOADING SCREEN -->
@@ -22,60 +22,113 @@
     <div class="inner_cursor"></div>
     <!-- END CUSTOM CURSOR -->
     <main data-barba="container" data-barba-namespace="catalog-section">
+      <!-- START FLOATING BACK BUTTON -->
+      <a class="btn_back float" href="index.html"><i class="fa-solid fa-sharp fa-arrow-left"></i></a>
+      <!-- END FLOATING BACK BUTTON -->
       <!-- START CATALOG -->
       <section id="catalog" class="catalog">
-        <!-- START FLOATING BACK BUTTON -->
-        <a class="btn_back float" href="index.html"><i class="fa-solid fa-sharp fa-arrow-left"></i></a>
-        <!-- END FLOATING BACK BUTTON -->
         <header class="catalog_header">
-          <a href="#"><img src="icons/kalosph-catalog.svg"/></a>
+          <a href="catalog.html"><img src="icons/kalosph-catalog.svg"/></a>
         </header>
         <h2>
           customized sportswear & apparels
           <span class="gradient-text">on your palms</span>
         </h2>
         <p>
-          we are a company that specializes in customized sportswear for your
-          kind of sport. we design, print, press and sew from scratch all of our
-          products to deliver satisfaction to all of our client.
+          we are kalosph sportswear that customizes apparels such as jersey sportswear, company uniforms, athletic uniforms, souvenirs shirts, family gatherings shirts and organization uniforms. <strong class="gradient-text">shooting uniform and golf uniform</strong> is also available. please inquire below.
         </p>
-        <div class="catalog_sports__grid">
-          <h3>sports</h3>
+        <h3>sports</h3>
+        <div class="catalog_sports__flex">
           <a class="catalog_icon" href="basketball.html">
             <img src="icons/icon-basketball.svg"/>
+            <span>basketball</span>
           </a>
           <a class="catalog_icon" href="volleyball.html">
             <img src="icons/icon-volleyball.svg"/>
+            <span>volleyball</span>
           </a>
-          <a class="catalog_icon" href="#">
+          <a class="catalog_icon" href="cycling.html">
             <img src="icons/icon-cycling.svg"/>
+            <span>cycling</span>
           </a>
-          <a class="catalog_icon" href="#">
+          <a class="catalog_icon" href="baseball.html">
             <img src="icons/icon-baseball.svg"/>
+            <span>baseball</span>
           </a>
         </div>
-        <div class="catalog_apparels__grid">
-          <h3>apparels</h3>
-          <a class="catalog_icon" href="#">
+        <h3>apparels</h3>
+        <div class="catalog_apparels__flex">
+          <a class="catalog_icon" href="facemask.html">
             <img src="icons/icon-facemask.svg"/>
+            <span>facemask</span>
           </a>
           <a class="catalog_icon" href="tshirt.html">
             <img src="icons/icon-tshirt.svg"/>
-          </a><a class="catalog_icon" href="poloshirt.html">
+            <span>tshirt</span>
+          </a>
+          <a class="catalog_icon" href="poloshirt.html">
             <img src="icons/icon-poloshirt.svg"/>
+            <span>poloshirt</span>
           </a>
           <a class="catalog_icon" href="longsleeves.html">
             <img src="icons/icon-longsleeves.svg"/>
+            <span>longsleeves</span>
           </a>
-          <a class="catalog_icon icon-jacket" href="jacket.html">
+          <a class="catalog_icon" href="jacket.html">
             <img src="icons/icon-jacket.svg"/>
+            <span>jacket</span>
           </a>
-          <a class="catalog_icon icon-joggerpants" href="#">
+          <a class="catalog_icon" href="joggerpants.html">
             <img src="icons/icon-joggerpants.svg"/>
+            <span>jogger pants</span>
           </a>
         </div>
       </section>
       <!-- END CATALOG -->
+      <!-- START GET STARTED -->
+      <section class="get-started">
+          <h2>let's get you started</h2>
+          <p>to get you started, this is the step by step procedure for you to follow. thank you for considering us to be your outfitter!</p>
+          <div class="get-started-card_container">
+              <div class="get-started-card">
+                  <div class="get-started-card-title">
+                      <h4 class="get-started-card-title-number">01</h4>
+                      <h4>quotation</h4>
+                  </div>
+                  <div class="get-started-card-content">
+                      <p>fill the form below, don't leave any blanks or you will get an error. be precise and straight to the point instructions of what's inside your mind. by doing so, we will not be confuse and get back to you as soon as possible.</p>
+                  </div>
+              </div>
+              <div class="get-started-card">
+                  <div class="get-started-card-title">
+                      <h4 class="get-started-card-title-number">02</h4>
+                      <h4>approval</h4>
+                  </div>
+                  <div class="get-started-card-content">
+                      <p>we're going to email you a quote, the initial design made by our artist based on your instructions, size charts and our mode of payment available at the moment. in this step, we will finalize your design and lineup. please stay online.</p>
+                  </div>
+              </div>
+              <div class="get-started-card">
+                  <div class="get-started-card-title">
+                      <h4 class="get-started-card-title-number">03</h4>
+                      <h4>production</h4>
+                  </div>
+                  <div class="get-started-card-content">
+                      <p>once the design is approved and atleast 50% of the payment is made, we will now proceed your order to production. to get you informed, this is the print, press and sew. this might take a while but we will keep in touch. please be patient.</p>
+                  </div>
+              </div>
+              <div class="get-started-card">
+                  <div class="get-started-card-title">
+                      <h4 class="get-started-card-title-number">04</h4>
+                      <h4>delivery</h4>
+                  </div>
+                  <div class="get-started-card-content">
+                      <p>finally, after all the steps. your order is done, our admin will keep you in touch to confirm the due date for the release of your orders. the admin might need some time to talk to you about the details such as deadline, delivery fee and delivery address (if not pick-up).</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!-- END GET STARTED -->
       <!-- START INQUIRY -->
       <section id="inquiry" class="inquiry">
         <h2>want to inquire?</h2>
@@ -291,8 +344,8 @@
             <!-- ROW START -->
             <div class="columns">
               <div class="column">
-                <label class="label label_danger"><i class="fa-solid fa-sharp fa-warning"></i>designation is
-                  required.</label>
+                <label class="label label_danger"><i class="fa-solid fa-sharp fa-warning"></i>designation is required</label>
+                <label class="label label_success"><i class="fa-solid fa-sharp fa-circle-check"></i>inquiry sent successfully</label>
               </div>
             </div>
             <!-- ROW END -->
@@ -340,6 +393,7 @@
     <script src="js/smooth-scroll.js"></script>
     <script src="js/fancy-gallery.js"></script>
     <script class="fancy-image_slider" src="js/fancy-image_slider.js"></script>
+    <script class="fancy-hero_carousel" src="js/fancy-hero_carousel.js"></script>
     <script src="js/transitions.js"></script>
   </body>
 </html>

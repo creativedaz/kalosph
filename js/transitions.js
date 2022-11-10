@@ -66,6 +66,16 @@ $(function () {
     oldScriptFancyImageSlider.remove();
     scriptDOMFancyImageSlider.appendChild(newScriptFancyImageSlider);
     // console.log(newScriptFancyImageSlider);
+
+    // REINITIALIZE js/fancy-hero_carousel.js at <script></script> to make fancy hero carousel working
+    var scriptDOMFancyHeroCarousel = document.getElementsByTagName("body")[0];
+    var newScriptFancyHeroCarousel = document.createElement("script");
+    var oldScriptFancyHeroCarousel = document.querySelector(".fancy-hero_carousel");
+    newScriptFancyHeroCarousel.src = "js/fancy-hero_carousel.js";
+    newScriptFancyHeroCarousel.className = "fancy-hero_carousel";
+    oldScriptFancyHeroCarousel.remove();
+    scriptDOMFancyHeroCarousel.appendChild(newScriptFancyHeroCarousel);
+    // console.log(newScriptFancyHeroCarousel);
   });
   // INITIALIZE TRANSITION
   barba.init({

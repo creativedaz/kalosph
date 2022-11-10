@@ -9,7 +9,7 @@
     <title>KALOSPH Inquire</title>
     <link rel="icon" type="image/svg+xml" href="icons/favicon/favicon.svg"/>
     <link rel="icon" type="image/png" href="icons/favicon/favicon.png"/>
-    <link class="app-css" href="css/app.css" rel="stylesheet" type="text/css" media="all"/>
+    <link class="app-css" href="style.css" rel="stylesheet" type="text/css" media="all"/>
   </head>
   <body data-barba="wrapper">
     <!-- START LOADING SCREEN -->
@@ -22,11 +22,11 @@
     <div class="inner_cursor"></div>
     <!-- END CUSTOM CURSOR -->
     <main data-barba="container" data-barba-namespace="inquiry-section">
+      <!-- START FLOATING BACK BUTTON -->
+      <a class="btn_back float" href="index.html"><i class="fa-solid fa-sharp fa-arrow-left"></i></a>
+      <!-- END FLOATING BACK BUTTON -->
       <!-- START INQUIRY -->
       <section class="inquiry">
-        <!-- START FLOATING BACK BUTTON -->
-        <a class="btn_back float" href="index.html"><i class="fa-solid fa-sharp fa-arrow-left"></i></a>
-        <!-- END FLOATING BACK BUTTON -->
         <header class="inquiry_header">
           <a href="#"><img src="icons/kalosph-inquiry.svg"/></a>
         </header>
@@ -243,8 +243,8 @@
             <!-- ROW START -->
             <div class="columns">
               <div class="column">
-                <label class="label label_danger"><i class="fa-solid fa-sharp fa-warning"></i>designation is
-                  required.</label>
+                <label class="label label_danger"><i class="fa-solid fa-sharp fa-warning"></i>designation is required</label>
+                <label class="label label_success"><i class="fa-solid fa-sharp fa-circle-check"></i>inquiry sent successfully</label>
               </div>
             </div>
             <!-- ROW END -->
@@ -292,6 +292,7 @@
     <script src="js/smooth-scroll.js"></script>
     <script src="js/fancy-gallery.js"></script>
     <script class="fancy-image_slider" src="js/fancy-image_slider.js"></script>
+    <script class="fancy-hero_carousel" src="js/fancy-hero_carousel.js"></script>
     <script src="js/transitions.js"></script>
   </body>
 </html>

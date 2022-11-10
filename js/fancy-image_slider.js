@@ -33,3 +33,4 @@ Fancybox.bind('[data-fancybox="carousel"]', {
     display: [{ id: "counter", position: "center" }, "close"],
   },
 });
+
