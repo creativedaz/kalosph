@@ -75,7 +75,7 @@ $(function () {
     newScriptFancyHeroCarousel.className = "fancy-hero_carousel";
     oldScriptFancyHeroCarousel.remove();
     scriptDOMFancyHeroCarousel.appendChild(newScriptFancyHeroCarousel);
-    // console.log(newScriptFancyHeroCarousel);
+    console.log(newScriptFancyHeroCarousel);
   });
   // INITIALIZE TRANSITION
   barba.init({
