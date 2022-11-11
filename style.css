@@ -2460,9 +2460,13 @@ select,
       line-height: 34px;
     }
 
+    .carousel__button.is-prev, .carousel__button.is-next {
+      top: 30%;
+    }
+
     .btn_large {
-        font-size: 16px;
-        padding: 10px 23px;
+        font-size: 18px;
+        padding: 14px 28px;
     }
 
     .catalog {
