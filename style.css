@@ -2461,8 +2461,17 @@ select,
     }
 
     .carousel__button.is-prev, .carousel__button.is-next {
-      top: 30%;
+      top: 40%;
     }
+
+    .carousel__button.is-next {
+      right: 10px;
+    }
+    
+    .carousel__button.is-prev {
+      left: 10px;
+    }
+    
 
     .btn_large {
         font-size: 18px;
