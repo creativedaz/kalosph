@@ -1244,7 +1244,7 @@ button.carousel__button {
 /* INQUIRY.CSS START */
 .inquiry {
   background-color: #f3f3f3;
-  padding: 0px 100px 50px 100px;
+  padding: 50px 100px;
 }
 
 .inquiry a {
@@ -2370,8 +2370,7 @@ select,
     }
 
     .inquiry {
-        padding-top: 0;
-        padding-bottom: 50px;
+      padding: 15px 50px;
     }
 
     .inquiry_header a img {
@@ -2721,7 +2720,7 @@ select,
     }
 
     .inquiry {
-        padding: 25px;
+        padding: 25px 10px;
     }
 
     .inquiry p {
