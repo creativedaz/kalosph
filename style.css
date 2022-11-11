@@ -427,6 +427,7 @@ a {
   margin-bottom: 25px;
   text-transform: uppercase;
   text-shadow: 1px 1px 10px rgb(0 0 0 / 50%);
+  backdrop-filter: blur(2px);
 }
 
 #heroCarousel {
