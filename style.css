@@ -976,7 +976,7 @@ a.catalog-inquire {
 
 .branches_container a {
   font-family: "Monument Extended Bold";
-  font-size: 44px;
+  font-size: 34px;
   color: #ffffff;
   letter-spacing: 3px;
   mix-blend-mode: difference;
@@ -1001,6 +1001,7 @@ a.catalog-inquire {
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
+  gap: 15px;
 }
 
 .branches_title-box h2 {
@@ -1757,8 +1758,13 @@ select,
       line-height: 108px;
     }
 
+    .branches_container {
+      gap: 10px;
+      margin-top: 10px;
+    }
+
     .branches_container a {
-        font-size: 32px;
+        font-size: 24px;
     }
 
     .footer_company_details img:first-child {
@@ -2022,8 +2028,13 @@ select,
         -webkit-text-stroke: 3px black;
     }
 
+    .branches_container {
+      gap: 10px;
+      margin-top: 10px;
+    }
+
     .branches_container a {
-        font-size: 24px;
+        font-size: 16px;
     }
 
     .footer {
@@ -2326,7 +2337,7 @@ select,
     }
 
     .branches {
-        padding: 25px 50px;
+        padding: 25px 25px;
     }
 
     .branches_title-box h2 {
@@ -2710,7 +2721,7 @@ select,
     }
 
     .branches {
-        padding: 10px 10px;
+        padding: 10px 5px;
     }
 
     .branches_title-box h2 {
@@ -2720,8 +2731,13 @@ select,
         letter-spacing: 1px;
     }
 
+    .branches_container {
+        gap: 5px;
+        margin-top: 5px;
+    }
+
     .branches_container a {
-        font-size: 16px;
+        font-size: 14px;
         flex: 0 0 41%;
     }
 
@@ -2865,11 +2881,13 @@ select,
         width: 50%;
     }
 
+    .footer_company_details img:last-child {
+      width: 80%;
+  }
+
     .footer_company_details > p {
       padding: 0 10px;
   }
-
-
     .footer_payment_method p {
         text-align: center;
     }
