@@ -455,7 +455,7 @@ a {
 
 .nav_dropdown ul li a {
   font-family: "Exo 2";
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
   color: inherit;
@@ -1683,7 +1683,7 @@ select,
     }
 
     .nav_dropdown ul li a {
-      font-size: 14px;
+      font-size: 11px;
     }
 
     .main {
@@ -2223,11 +2223,16 @@ select,
 
     .nav_dropdown {
         margin: 0 auto;
-        width: 200px;
+        width: 220px;
     }
 
     .nav_dropdown label {
         font-size: 12px;
+        text-align: center;
+    }
+
+    .nav_dropdown label:after {
+      right: 8%;
     }
 
     .nav_dropdown ul {
@@ -2235,7 +2240,7 @@ select,
     }
 
     .nav_dropdown ul li a {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .main {
