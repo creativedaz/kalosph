@@ -2560,7 +2560,7 @@ select,
     .catalog_sports__flex a,
     .catalog_apparels__flex a {
       padding-bottom: 0;
-      font-size: 18px;
+      font-size: 20px;
       flex: 0 0 32%;
     }
 
