@@ -600,6 +600,11 @@ a {
   color: #ffffff;
 }
 
+.inquiry_header a img {
+  width: 420px;
+  height: 100%;
+}
+
 /* CATALOG */
 .catalog {
   background-color: #000000;
