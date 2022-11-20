@@ -641,7 +641,7 @@ a {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  padding: 25px 300px;
+  padding: 25px 250px;
 }
 
 .catalog a {
@@ -659,9 +659,11 @@ a {
 }
 
 a.catalog-inquire {
-  display: inline;
+  display: block;
   font-size: 24px;
   text-decoration: underline;
+  text-align: center;
+  margin-top: -25px;
 }
 
 .catalog a:hover {
@@ -944,7 +946,7 @@ a.catalog-inquire {
 
 .new_arrival__sticker {
   position: absolute;
-  top: 675px;
+  top: 600px;
   left: 675px;
 }
 
@@ -1511,6 +1513,17 @@ select,
 .text-md {
   font-size: 18px;
 }
+
+.checkbox {
+  display: flex;
+  gap: 10px;
+}
+
+.checkbox > span > a {
+  display: inline;
+  color: #686868;
+  text-decoration: underline;
+}
   
 /* INQUIRY.CSS END */
 
@@ -1735,7 +1748,7 @@ select,
     .catalog p {
         font-size: 22px;
         line-height: 22px;
-        padding: 15px 150px;
+        padding: 15px 100px;
     }
     
     .catalog a {
@@ -1745,6 +1758,7 @@ select,
 
     a.catalog-inquire {
       font-size: 18px;
+      margin-top: -10px;
     }
 
     .catalog_sports__flex,
