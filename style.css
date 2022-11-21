@@ -641,7 +641,7 @@ a {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  padding: 25px 200px;
+  padding: 10px 200px 5px 200px;
 }
 
 .catalog a {
@@ -659,11 +659,10 @@ a {
 }
 
 a.catalog-inquire {
-  display: block;
+  display: inline-block;
   font-size: 24px;
   text-decoration: underline;
-  text-align: center;
-  margin-top: -25px;
+  margin-top: 0;
 }
 
 .catalog a:hover {
@@ -1187,6 +1186,7 @@ body.compensate-for-scrollbar {
     background-image: url("img/catalog/bg-catalog-gridlines.jpg");
     background-size: cover;
     padding: 25px 100px;
+    text-align: center;
 }
 
 .catalog_header a img {
