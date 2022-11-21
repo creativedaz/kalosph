@@ -1749,7 +1749,7 @@ select,
     .catalog p {
         font-size: 22px;
         line-height: 22px;
-        padding: 15px 100px;
+        padding: 10px 100px;
     }
     
     .catalog a {
@@ -2311,7 +2311,7 @@ select,
     .catalog p {
         font-size: 18px;
         line-height: 18px;
-        padding: 10px 50px;
+        padding: 5px 50px;
     }
 
     a.catalog-inquire {
@@ -2686,7 +2686,7 @@ select,
     .catalog p {
         font-size: 16px;
         line-height: 16px;
-        padding: 10px 10px;
+        padding: 0 10px;
         letter-spacing: 1px;
     }
 
@@ -2812,18 +2812,22 @@ select,
     }
 
     .new_arrival__description-box h3 {
-        font-size: 18px;
-        line-height: 24px;
+      font-size: 20px;
+      line-height: 20px;
     }
 
     .new_arrival__description-box p {
-        line-height: 15px;
-        -webkit-text-stroke: 0.3px #c2c2c2;
-        font-size: 12px;
+      font-size: 16px;
+      line-height: 16px;
+      -webkit-text-stroke: 0.3px #c2c2c2;
     }
 
     .about_us {
         padding: 10px 10px;
+    }
+
+    .about_us__grid {
+      grid-gap: 5px;
     }
 
     .about_us__grid > div > img {
