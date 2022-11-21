@@ -1306,6 +1306,7 @@ button.carousel__button {
   margin-top: 25px;
   display: flex;
   gap: 50px;
+  text-align: start;
 }
 
 .product_content h5 {
