@@ -3282,6 +3282,7 @@ select,
   .privacy_policy_terms_of_use_content ul, 
   .privacy_policy_terms_of_use_content ol {
     font-size: 16px;
+    padding: 0 30px;
   }
 
 
